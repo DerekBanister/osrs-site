@@ -1,4 +1,4 @@
-# Portfolio #3
+# OSRS Site
 
 * This website is a skill based assessment for a Java Bootcamp I am currently attending via TEKSystems. It is a very simple website using a third party api to retrieve statistics for a video game called Old School Runescape. 
 
