@@ -114,6 +114,10 @@ td {
     border: 1px solid #333;
 }
 
+.duck {
+    text-decoration: underline;
+}
+
 thead,
 tfoot {
     background-color: #333;

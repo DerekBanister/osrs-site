@@ -46,8 +46,14 @@ function appendData(event) {
             // console.log(values[i].score);
             let li1 = document.createElement("tr");
             let li2 = document.createElement("tr");
+            li1.classList.add("duck")
             li1.textContent = keys[i];
-            li2.textContent = values[i].score;
+            if (values[i].score === -1) {
+                li2.textContent = 0;
+            } else {
+                li2.textContent = values[i].score;
+            }
+
             table.appendChild(li1);
             table.appendChild(li2);
 
