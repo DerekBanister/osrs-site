@@ -1,22 +1,20 @@
 # Portfolio #3
 
-* This website is my third portfolio made in the UC Berkeley Extension Full Stack Coding Bootcamp. This portfolio website utilizes skills I have gained in the first 2 months of my coding bootcamp. It is a basic portfolio set up with a server and deployed to Heroku. 
+* This website is a skill based assessment for a Java Bootcamp I am currently attending via TEKSystems. It is a very simple website using a third party api to retrieve statistics for a video game called Old School Runescape. 
 
-![Portfolio Picture](/public/images/readmepic.PNG) 
+![Deployed website]() 
 
 
 ## Built With
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
-* [Google Fonts](https://fonts.google.com/)
-
-
-## Deployed Link
-
-* [Derek's 3rd Portfolio](https://derek-banister-portfolio.herokuapp.com/)
-
+* [Javascript](https://www.html.com/)
+* [Javascript](https://www.w3schools.com/css/)
+* [Javascript](https://www.javascript.com/)
+* [Node.Js](https://nodejs.org/en/)
+* [Express.Js](https://expressjs.com/)
+* [MySQL](https://www.mysql.com/)
+* [Sequelize](https://www.npmjs.com/package/sequelize)
+* [OSRS-JSON-Hiscores](https://www.npmjs.com/package/osrs-json-hiscores)
 
 ## Authors
 
