@@ -3,30 +3,54 @@
 
 <head>
     <meta charset="utf-8">
-    <title>beautiful landing page with search bar</title>
+    <title>OSRS Stats</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
     <div class="main">
         <div class="navbar">
-            <div class="logo">OSRS Stats</div>
+            <div class="logo">IronStats</div>
             <ul>
                 <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">BLOG</a></li>
+                <li><a href="#">Top Players</a></li>
+                <li><a href="#"></a></li>
             </ul>
         </div>
         <div class="info">
             <div class="head">
-                <h1>The number one place to look up your runescape stats</h1>
+                <h1>The number one runescape website for Ironmen to look up runescape stats</h1>
             </div>
             <form id="f1" name="f1" class="search">
-                <input type="text" name="t1" placeholder="Search for your character here.." required="">
-                <input type="submit" name="b1" value="SEARCH" form="f1">
+                <input class="value" type="text" name="t1" placeholder="Search for your character here..">
+                <input class="submitBtn" type="submit" name="b1" value="SEARCH" form="f1">
             </form>
+            <!-- <table class="table">
+                <tr>
+                    <th>Results</th>
+                </tr>
+                <tr class="boss">
+                    <td></td>
+                </tr>
+                <tr class="kc">
+                    <td></td>
+                </tr>
+            </table> -->
         </div>
     </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Results</th>
+            </tr>
+        </thead>
+        <tbody class=".boss">
+            <tr></tr>
+            <!-- <tr>
+                <td class="kc"></td>
+            </tr> -->
+        </tbody>
+    </table>
     <script src="./js/script.js"></script>
 </body>
 
