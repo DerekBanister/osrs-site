@@ -109,18 +109,21 @@ body {
     text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-table,
-td {
-    border: 1px solid #333;
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid rgb(8, 0, 0);
 }
 
 .duck {
+
     text-decoration: underline;
 }
 
 thead,
 tfoot {
-    background-color: #333;
+    background-color: rgb(7, 1, 1);
     color: #fff;
 }
 
