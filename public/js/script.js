@@ -27,19 +27,21 @@ async function getApi() {
 }
 
 function appendData(event) {
+
     event.preventDefault();
-    // window.location.replace("http://localhost:3001/results");
     let userData = getApi();
 
     userData.then(function (result) {
         // console.log(result);
         // console.log(result.ironman.bosses);
+        console.log(result.name);
         let ironman = result.ironman.bosses;
         let keys = Object.keys(ironman);
         let values = Object.values(ironman);
         let table = document.querySelector(".table");
+        let resultEl = document.querySelector(".result")
         // let table2 = document.querySelector(".k");
-
+        resultEl.textContent = result.name;
 
         for (i = 0; i < keys.length; i++) {
             // console.log(keys[i]);
