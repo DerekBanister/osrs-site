@@ -32,8 +32,8 @@ function appendData(event) {
     let userData = getApi();
 
     userData.then(function (result) {
-        // console.log(result);
-        // console.log(result.ironman.bosses);
+        console.log(result);
+        console.log(result.ironman.bosses);
         console.log(result.name);
         let ironman = result.ironman.bosses;
         let keys = Object.keys(ironman);

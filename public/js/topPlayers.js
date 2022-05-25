@@ -20,11 +20,15 @@ function appendTopPlayers() {
 
     top.then(function (result) {
         console.log(result);
-        for (i = 0; i < top.length; i++) {
+        console.log(result.length)
+        for (i = 0; i < result.length; i++) {
             let top = result[i].name;
+            let xp = result[i].xp;
+            let lvl = result[i].level;
             let el = document.createElement("li");
-            el.textContent = top;
+            el.textContent = top + " - " + lvl + " - " + xp + " xp";
             div.appendChild(el);
+
         }
 
     })
