@@ -26,22 +26,29 @@ async function getApi() {
     return hiscore;
 }
 
-function appendData(event) {
+function appendUser(event) {
 
     event.preventDefault();
     let userData = getApi();
 
     userData.then(function (result) {
-        console.log(result);
-        console.log(result.ironman.bosses);
-        console.log(result.name);
+        let skills = result.ironman.skills;
         let ironman = result.ironman.bosses;
+        // console.log(result);
         let keys = Object.keys(ironman);
         let values = Object.values(ironman);
         let table = document.querySelector(".table");
-        let resultEl = document.querySelector(".result")
-        // let table2 = document.querySelector(".k");
+        let table2 = document.querySelector(".table2");
+        let resultEl = document.querySelector(".result");
+        let resultEl2 = document.querySelector(".result2");
         resultEl.textContent = result.name;
+        resultEl2.textContent = result.name;
+
+        console.log(skills)
+        let keys2 = Object.keys(skills);
+        let values2 = Object.values(skills);
+        console.log(keys2);
+        console.log(values2);
 
         for (i = 0; i < keys.length; i++) {
             // console.log(keys[i]);
@@ -55,14 +62,23 @@ function appendData(event) {
             } else {
                 li2.textContent = values[i].score;
             }
-
             table.appendChild(li1);
             table.appendChild(li2);
-
         }
+
+        for (i = 0; i < keys2.length; i++) {
+            let li3 = document.createElement("tr");
+            let li4 = document.createElement("tr");
+            // li3.classList.add("duck")
+            li3.textContent = keys2[i];
+            li4.textContent = values2[i].level;
+            table2.appendChild(li3);
+            table2.appendChild(li4);
+        }
+
 
     })
 }
 
 
-submitBtn.addEventListener("click", appendData);
+submitBtn.addEventListener("click", appendUser);

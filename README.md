@@ -20,6 +20,6 @@
 
 * **DEREK BANISTER** 
 
-- [Link to Portfolio Site](https://derek-banister-portfolio.herokuapp.com/)
+- [Link to Portfolio Site](https://derekbanister.github.io/portfolio/)
 - [Link to Github](https://github.com/DerekBanister)
 - [Link to LinkedIn](https://www.linkedin.com/in/derek-banister/)
