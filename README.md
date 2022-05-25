@@ -1,6 +1,6 @@
 # OSRS Site
 
-* This website is a skill based assessment for a Java Bootcamp I am currently attending via TEKSystems. It is a very simple website using a third party api to retrieve statistics for a video game called Old School Runescape. 
+* This website is a personal project. It is a simple website using a OSRS-JSON-Hiscores NPM package to retrieve statistics for a video game called Old School Runescape. 
 
 ![Deployed website]() 
 
