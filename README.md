@@ -4,7 +4,7 @@
 
 * Note: CORS is a massive headache, huge shoutout to [cors](https://www.npmjs.com/package/cors) for their npm package.
 
-![Deployed website](https://gentle-depths-19347.herokuapp.com/) 
+[Deployed website](https://gentle-depths-19347.herokuapp.com/) 
 
 
 ## Built With
