@@ -26,7 +26,7 @@ function appendTopPlayers() {
             let xp = result[i].xp;
             let lvl = result[i].level;
             let el = document.createElement("li");
-            el.textContent = top + " - " + lvl + " - " + xp + " xp";
+            el.textContent = top + " | " + lvl + " | " + xp + "xp";
             div.appendChild(el);
 
         }
