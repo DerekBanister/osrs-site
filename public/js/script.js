@@ -1,4 +1,3 @@
-// https://polar-badlands-45238.herokuapp.com/
 
 let submitBtn = document.querySelector(".submitBtn");
 let table = document.querySelector(".table");
