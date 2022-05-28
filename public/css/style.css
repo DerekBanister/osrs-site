@@ -117,7 +117,7 @@ body {
 .tableHolder {
     display: flex;
     justify-content: center;
-    background: rgba(218, 10, 10, 0.5);
+    background: #000000;
 
 }
 
@@ -125,19 +125,44 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid rgb(8, 0, 0);
+    font-family:'Khmer', display;
+    border: 1px solid #ffff00;
+    border-radius: 20px;
+    width: 30%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.table th {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid #ffff00;
+    font-size: 25px;
 }
 
 .table2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid rgb(8, 0, 0);
-    width: 200px;
+    font-family:'Khmer', display;
+    border: 1px solid #ffff00;
+    border-radius: 20px;
+        height: 100%;
+    width: 30%;
+    color: #ffffff;
+}
+
+.table2 th {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid #ffff00;
+    font-size: 25px; 
 }
 
 .duck {
     text-decoration: underline;
+    color: #ffff00;
+    font-size: 20px;
 }
 
 thead,
@@ -150,7 +175,7 @@ tfoot {
     height: auto;
     width: 100%;
     text-align: center;
-    font-family: 'cinzel', sans-serif;
+    font-family:'Khmer', display;
     font-size: 18px;
     font-weight: 300;
     color: #fff;
@@ -202,7 +227,7 @@ tfoot {
 .main .info .search input[type="submit"] {
     background: black;
     border: none;
-    font-family: 'Lato', sans-serif;
+    font-family:'Khmer', display;
     color: #fff;
     font-weight: 300;
     font-size: 24px;
