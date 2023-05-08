@@ -4,7 +4,9 @@
 
 * Note: CORS is a massive headache, huge shoutout to [cors](https://www.npmjs.com/package/cors) for their npm package.
 
-[Deployed website](https://gentle-depths-19347.herokuapp.com/) 
+* Note: Update 5/8/2023. Switched from Heroku to Cyclic for hosting purposes. Had to host my own cors-anywhere and prefix api calls with it since heroku one went down due to new subcription model. 
+
+[Deployed website](https://red-zany-clam.cyclic.app/) 
 
 
 ## Built With
